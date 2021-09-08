@@ -1,0 +1,16 @@
+.dessertItem{
+    margin:10px 0 50px;
+}  
+.dessertItem:hover{
+    box-shadow: 0px 0px 20px 2px rgb(216, 216, 216);
+}
+.dessertItem .card-title{
+    height:1.3em;
+    overflow: hidden;
+    font-size: 1.1em;
+} 
+.dessertItem .intro{
+    padding-top: 0.5em;
+    height:100px;
+    overflow: hidden; 
+}

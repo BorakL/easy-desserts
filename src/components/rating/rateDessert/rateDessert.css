@@ -1,0 +1,25 @@
+
+.rateDessert{
+    font-size: 1.8em;
+    height:100px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
+}  
+.rateDessert .stars>*{
+    font-size: calc(1em + 0.5vw);
+    margin:0.2vw;
+    background-color: transparent
+}
+.rateDessert .stars:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 4px rgba(0,0,0,0.13); 
+
+}
+ .icon{
+    font-size: calc(1.5em + 1.5vw);
+
+}
+.rateDessert input[type="radio"]{
+    display: none;
+} 

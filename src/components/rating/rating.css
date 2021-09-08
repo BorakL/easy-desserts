@@ -1,0 +1,21 @@
+.rating{
+    display: flex;
+    max-width: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1em;
+    line-height: 0em;
+    padding:0.2em;
+}
+.rating-xl{
+    font-size: 1.5em;
+    max-width: 250px;
+}
+
+.rating>*{
+    margin-right:10px;
+}
+.rating>.ratingStars>*{
+    margin:0 2px;
+}

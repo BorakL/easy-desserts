@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+:root {
+  --first-color: rgb(255, 222, 113);
+  --font-color: rgb(44, 44, 44);
 }
+*{
+  padding:0;
+  margin:0;
+} 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body p{
+  white-space: pre-line;
+} 
+
+body a{
+  text-decoration: none; 
+  color: var(--font-color);
+} 
+body a:hover{
+  color: var(--font-color)
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  background: rgb(162,238,235);
+  background: linear-gradient(135deg, rgba(162,238,235,0.4) 0%, rgba(221, 174, 21, 0.3) 100%);   
 }
+.main{
+  max-width: 980px;
+  min-height: calc(100vh - 6em);
+  background-color: rgba(255, 255, 255, 0.680);
+  padding-bottom: 4em;
+} 
+.navbar{
+  background-color: var(--first-color);
+}
+.navbar .container{
+  max-width:900px;
+} 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
+  padding-top: 1em;
+  max-width:500px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column; 
+  margin:auto;
+}
+ 
+form button{
+  min-width:100px;
+  max-width:200px;
+  margin:1em auto 0; 
 }
 
-.App-link {
-  color: #61dafb;
+.welcome .btn{  
+  background-color: transparent;
+  border:1px solid white;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome .btn:hover, .welcome .btn:focus{
+  background-color: var(--first-color);
+  color:var(--font-color);
+  border:1px solid var(--font-color);
 }

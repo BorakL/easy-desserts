@@ -1,0 +1,36 @@
+.profile>.desserts .list-group-item:hover{
+    background-color: rgb(230, 230, 230)
+}
+
+.profile>.desserts .list-group{
+    max-height: 200px;
+    overflow: auto;
+    margin:1em 0 3em 0;
+}
+
+.profile>.desserts .list-group-item>.trash{
+    margin-left: 3em; 
+    cursor: pointer;
+    display: none; 
+    background-color: transparent;
+    border:0;
+    padding:0;
+    margin:0 0 0 2em; 
+    font-size: 1.3em;   
+}
+.profile>.desserts .list-group-item>.trash>*{
+    height:1.5em; 
+}
+.profile>.desserts .list-group-item>.trash:focus{
+    outline:none;
+    box-shadow: none;
+}
+
+.profile>.desserts .list-group-item>.trash:hover{ 
+    color: rgb(255, 0, 0);  
+}
+
+.profile>.desserts .list-group-item:hover>.trash{
+    display: inline;
+}
+  

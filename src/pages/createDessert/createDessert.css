@@ -1,0 +1,8 @@
+ 
+.create-dessert>div{ 
+    margin-bottom: 1em;   
+}
+.create-dessert .ingredients-list>*:hover{
+    cursor: pointer;
+    text-decoration: line-through;
+}
